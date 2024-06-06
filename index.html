@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Namoro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>LOGO</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#objectives">Objectives</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Bem-vindo ao App de Namoro</h1>
+            <p>Encontre seu par perfeito com nosso app.</p>
+            <img src="images/tela-home.png" alt="Tela inicial do app">
+        </section>
+        <section id="prices">
+            <h2>Planos e Preços</h2>
+            <p>Escolha o plano que melhor se adapta às suas necessidades.</p>
+            <ul>
+                <li>Plano Básico - Grátis</li>
+                <li>Plano Premium - R$ 29,90/mês</li>
+                <li>Plano Gold - R$ 49,90/mês</li>
+            </ul>
+            <img src="images/tela-precos.png" alt="Tela de preços do app">
+        </section>
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa dedicada a conectar pessoas e criar relacionamentos significativos.</p>
+            <img src="images/tela-sobre.png" alt="Tela sobre a empresa no app">
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco pelo formulário abaixo:</p>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
