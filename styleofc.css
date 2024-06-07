@@ -131,3 +131,45 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
 }
 
 /* OBJECTIVES */
+#objectives {
+    height: 100vh;
+}
+
+.title-section {
+    padding:20px;
+}
+
+.title-section > h3 {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title-section > h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.box-objective {
+    width: 900px;
+    padding: 0 0 30px 0;
+}
+
+.box-objective > h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--destaque);
+}
+
+.box-objective > p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    width: 340px;
+}
+
+#plans {
+    background: var(--background-red-soft);
+}
