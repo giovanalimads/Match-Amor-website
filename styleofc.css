@@ -132,7 +132,7 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
 
 /* OBJECTIVES */
 #objectives {
-    height: 100vh;
+    height: 80vh;
 }
 
 .title-section {
@@ -151,9 +151,25 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
     text-align: center;
 }
 
+.container-objectives {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
 .box-objective {
-    width: 900px;
+    width: 400px;
     padding: 0 0 30px 0;
+}
+
+.box-space {
+    margin-left: 80px;
 }
 
 .box-objective > h2 {
@@ -161,15 +177,92 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
     font-size: 20px;
     font-weight: 700;
     color: var(--destaque);
+    text-align: center;
 }
 
 .box-objective > p {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-    width: 340px;
 }
 
+/* PLANS */
 #plans {
     background: var(--background-red-soft);
+    height: 100vh;
+}
+
+.container-img-price {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.img-plans > img {
+    margin-top: -50px;
+    width: 300px;
+    margin-left: -80px;
+}
+
+.container-plans {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.plans {
+    background: var(--background-white);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #b7b7b7;
+    width: 240px;
+}
+
+.plans > h2 {
+    font-family: "Poppins", sans-serif;
+    color: var(--destaque);
+    text-align: center;
+    padding: 15px 0 8px;
+}
+
+.plans > hr {
+    border-color: var(--destaque);
+    border-style: solid;
+    border-radius: 1px;
+    border-width: 1px 0 0 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plans-price {
+    display: flex;
+    margin-top: 4px;
+    justify-content: center;
+    width: 100%;
+}
+
+.plans-price > .text-big {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.plans-price > .text-small {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.plans-price > .text-red {
+    color: var(--destaque);
+}
+
+.plans-benefits {}
+
+.plans-benefits > p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 4px;
 }
