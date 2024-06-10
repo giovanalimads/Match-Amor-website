@@ -218,6 +218,7 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
 .plan-free {
     width: 240px;
 }
+
 .plans {
     background: var(--background-white);
     border-radius: 10px;
@@ -324,15 +325,20 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
 
 #about > .container-about {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 60px;
 }
 
 #about > .container-about > .box-left {
-    width: 640px;
+    width: 450px;
 }
 
 #about > .container-about > .box-left > h2 {
     font-size: 18px;
     font-weight: 800;
+    margin-bottom: 6px;
     color: var(--destaque);
 }
 
@@ -348,7 +354,7 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
     background-color: #BE3139;
     border: none;
     border-radius: 5px;
-    margin-top: 14px;
+    margin-top: 10px;
     margin-bottom: 20px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
@@ -370,7 +376,18 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
 /* CONTACT */
 #contact {
     background: var(--background-red-soft);
+    height: 90vh;
 }
+
+.container-form {
+    background: var(--background-white);
+    width: 570px;
+}
+
+.container-form > form > .label {
+    font-size: 40px;
+}
+
 
 /* FOOTER */
 footer {

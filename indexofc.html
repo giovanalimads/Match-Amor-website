@@ -185,13 +185,24 @@
 
             <div class="container-form">
                 <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Mensagem:</label>
-                    <textarea id="message" name="message" required></textarea>
-                    <button type="submit">Enviar</button>
+                    <div class="input-name input">
+                        <label for="name" class="label">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="input-email input">
+                        <label for="email" class="label">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="input-message input">
+                        <label for="message" class="label">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <div class="form-button">
+                        <button type="submit">SEND</button>
+                    </div>
                 </form>
             </div>
         </section>
