@@ -120,6 +120,7 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
     width: 130px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .container-home > .home-box > .img-right {
@@ -320,7 +321,7 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
 
 /* ABOUT */
 #about {
-    height: 80vh;
+    height: 77vh;
 }
 
 #about > .container-about {
@@ -376,18 +377,70 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
 /* CONTACT */
 #contact {
     background: var(--background-red-soft);
-    height: 90vh;
+    height: 100vh;
 }
 
 .container-form {
     background: var(--background-white);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(143, 143, 143);
     width: 570px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-form > form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
 }
 
 .container-form > form > .label {
-    font-size: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
 }
 
+.container-form > form > .text-message {
+    padding: 50px;
+}
+
+.container-form > form > input, textarea {
+    background: var(--input);
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.form-button > button {
+    padding: 6px 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #BE3139;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.form-button > button:hover {
+    background-color: #ae0009;
+}
+
+.form-button > button:active {
+    background-color: #640d13; 
+    transform: scale(0.95); 
+}
 
 /* FOOTER */
 footer {
