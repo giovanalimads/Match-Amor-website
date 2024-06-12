@@ -17,6 +17,19 @@
     text-decoration: none;
 }
 
+html::-webkit-scrollbar{
+    width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--destaque);
+    border-radius: 3px;
+}
+
 body {
     background: var(--background-white);
     font-family: "Inter", sans-serif;
@@ -77,6 +90,13 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
     width: 100%;
 }
 
+#menu-icon{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
 
 /* HOME */
 .container-home {
@@ -224,6 +244,11 @@ nav > .logo, nav > .logo:link, nav > .logo:visited {
     background: var(--background-white);
     border-radius: 10px;
     box-shadow: 0px 0px 20px #b7b7b7;
+    transition: transform 0.3s ease-in-out;
+}
+
+.plans:hover {
+    transform: scale(1.05);
 }
 
 .plans > h2 {
